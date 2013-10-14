@@ -1,0 +1,23 @@
+{
+  "name": "heroku-sso-generator",
+  "version": "0.1.0",
+  "description": "Generate a SSO token against a add-on",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamShaft/heroku-sso-generator"
+  },
+  "author": "Cameron Bytheway <cameron@pivotapp.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamShaft/heroku-sso-generator/issues"
+  },
+  "dependencies": {
+    "simple-stack-common": "~0.2.0",
+    "startup": "~0.2.2",
+    "jade": "~0.35.0"
+  }
+}

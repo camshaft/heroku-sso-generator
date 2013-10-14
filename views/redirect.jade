@@ -1,0 +1,11 @@
+form(method="POST", action=url)#form
+  input(type="hidden", name="id", value=id)
+  input(type="hidden", name="token", value=token)
+  input(type="hidden", name="timestamp", value=timestamp)
+  input(type="hidden", name="nav-data", value=navData)
+  input(type="hidden", name="app", value=app)
+  input(type="hidden", name="email", value=email)
+script.
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById('form').submit()
+  });
